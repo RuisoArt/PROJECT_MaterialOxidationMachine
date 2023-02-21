@@ -1,0 +1,20 @@
+
+IOT
+
+Correo Electronico:
+
+	e-mail: 	iot.meca.elec.sis.usta@gmail.com
+	pass:		#$%pass&qwerty1234@usta
+
+Thinger io:
+	
+	user:		USTA_Mecanica
+	e-mail: 	iot.meca.elec.sis.usta@gmail.com
+	pass:		#$%pass&qwerty1234@usta
+
+
+Shinyapps.io
+
+	e-mail: 	iot.meca.elec.sis.usta@gmail.com
+	pass:		#$%pass&qwerty1234@usta
+	cuenta:		https://mecelecsis.shinyapps.io

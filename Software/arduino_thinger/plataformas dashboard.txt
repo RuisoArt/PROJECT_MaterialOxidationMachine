@@ -1,0 +1,74 @@
+Sending data with python thinger io
+
+https://hightechlog.com/iot-con-thinger-io-configurar-raspberry-pi/
+https://docs.thinger.io/linux
+
+https://unipython.com/graficos-dinamicos-con-dash/
+
+https://alexalvarez0310.wordpress.com/category/comandos-basicos-de-un-router-cisco/
+
+[LBR006] - Wemos ESP8266 con 18650 usando thinger.io [ IoT ]
+	https://www.youtube.com/watch?v=f907iH_bZXI&ab_channel=MarcoARodr%C3%ADguez
+
+Aprende a crear dispositivos y widgets en la plataforma Thinger.io parte 1.
+	https://www.youtube.com/watch?v=kV3siQfY9V0&ab_channel=BlueeIoTFramework
+
+Que es y como usar THINGER.IO
+	https://www.youtube.com/watch?v=r2pzgQKwtMo&t=115s&ab_channel=ProgramaTuMismo
+	https://drive.google.com/file/d/1x0wnJOhAZmR4R6lAR5dbX4_hjTnk7L_1/view
+
+Conectar Raspberry Pi con Thinger.Io
+	https://www.youtube.com/watch?v=I8-OFDMXOtc&ab_channel=AdrianVera
+	https://drive.google.com/file/d/1Sr1FksocJs_ZqvpDGkogiIXawyiI7zlS/view
+
+Arduino | Controlling LED and Monitoring DHT11 Sensor Data with NodeMCU ESP8266 and Thinger IO
+	https://www.youtube.com/watch?v=nWRtz7jRvVE&ab_channel=UtehStr
+
+Arduino y Thinger, enviando datos desde el Arduino
+	https://www.youtube.com/watch?v=fkUXf6bubTA&list=PLMVYZG0tWcmr4cFi5dAJ101aTSgOjokD1&index=16&ab_channel=CreatividadAhora
+
+Interfaz Gráfica en Python enviar y recibir datos analógicos de Arduino
+	https://www.youtube.com/watch?v=DJY9TFxrYbM&ab_channel=MagnoEfren
+
+Envio de correos con Python - Bytes
+	https://www.youtube.com/watch?v=7ZcFcTdCa7o&ab_channel=codigofacilito
+
+Automatiza tus tareas con Python #1: Carga masiva de datos a la web
+	https://www.youtube.com/watch?v=FaVEISsLld0&ab_channel=CarlosOlivares
+
+
+Compartir datos en hilos - 13 - Python Avanzado tutorial en español
+	https://www.youtube.com/watch?v=cFED4bHaK9I&ab_channel=nicosiored
+
+
+Programación en PYTHON y Arduino para ENVIAR y RECIBIR Datos
+	https://www.youtube.com/watch?v=J0CMME2gd9I&ab_channel=SetupLabs
+
+Comunicación Python - Arduino (Pycharm) pyserial || Enviar y Recibir Datos
+	https://www.youtube.com/watch?v=_DMFDjNYNVI&ab_channel=NetworkWarriors
+
+🤩 PYTHON ARDUINO SERIAL - pyserial - Enviar datos de ARDUINO a PYTHON 🐍 - Tutorial Python #13 👌.
+	https://www.youtube.com/watch?v=RRpEXRyjYUs&ab_channel=TurboC%C3%B3digo
+
+Crea un Dashboard de vacunados con Dash | Plotly
+	https://www.youtube.com/watch?v=mI1NYF1dbLU&ab_channel=PriscilaCejas
+
+Análisis de delitos + Mapa + Regalo con Python
+	https://www.youtube.com/watch?v=mI1NYF1dbLU&ab_channel=PriscilaCejas
+
+Mapa interactivo de Colombia con Python y Plotly
+	https://www.youtube.com/watch?v=xtCi2uCrnTk&ab_channel=AndresTrianaDev
+
+Thinger.io Dashboard Preview
+	https://www.youtube.com/watch?v=rvAM3BCiHJs&ab_channel=thinger.io
+
+Dashboard en Python usando Dash - Super fácil!
+	https://www.youtube.com/watch?v=N9yHClPGWG4&ab_channel=PabloPaniagua
+
+
+
+
+
+
+
+
