@@ -30,9 +30,7 @@ def my_main():
     
     image = machine_img()
     st.image(image, caption='Simulacion 3D Maquina de Niebla Salina')
-
-    #res()
-    
+   
     st.subheader('Sensor de Temperatura 1: :orange[TermocuplaXXX]: ')
     mysd()
     st.subheader('Sensor de Temperatura 2: :orange[TermocuplaXXX]: ')
