@@ -3,10 +3,10 @@ import datetime
 def this_my_local_date():
     aja = datetime.datetime.now()
 
-    day = aja.day
-    month = aja.month
-    year = aja.year
+    day = str(aja.day)
+    month = str(aja.month)
+    year = str(aja.year)
 
-    time = str(day) +'-'+ str(month) +'-'+ str(year)
+    time = day+'-'+month+'-'+year
 
-    return print(str(time))
+    return str(time)

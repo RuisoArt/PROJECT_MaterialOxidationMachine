@@ -1,3 +1,6 @@
+# pip install streamlit
+# pip install st-annotated-text
+
 import streamlit as st
 import pandas as pd
 import pickle
