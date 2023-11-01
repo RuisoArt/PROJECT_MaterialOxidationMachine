@@ -1,12 +1,12 @@
-import datetime
+#pip install DateTime
+from datetime import datetime
+import time
 
 def this_my_local_time():
-    aja = datetime.datetime.now()
+    dt = datetime.now()
+    my_time = datetime.strftime(dt, "%H:%M:%S")
+    print(my_time)
 
-    hour = str(aja.hour)
-    minute = str(aja.minute)
-    seconds = str(aja.second)
+    return str(my_time)
 
-    my_date = hour+' : '+minute+' : '+seconds
-
-    return my_date
+this_my_local_time()

@@ -1,12 +1,15 @@
-import datetime
+#pip install DateTime
+from datetime import datetime
+import time
 
 def this_my_local_date():
-    aja = datetime.datetime.now()
+    dt = datetime.now()
+    my_day      = datetime.strftime(dt, '%d')
+    my_month    = datetime.strftime(dt, '%m')
+    my_year     = datetime.strftime(dt, '%Y')
 
-    day = str(aja.day)
-    month = str(aja.month)
-    year = str(aja.year)
+    my_date = str(my_day) +"/"+ str(my_month) +"/"+ str(my_year)
+    print(my_date)
 
-    time = day+'-'+month+'-'+year
+    return my_date
 
-    return str(time)
