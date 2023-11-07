@@ -9,7 +9,5 @@ def this_my_local_date():
     my_year     = datetime.strftime(dt, '%Y')
 
     my_date = str(my_day) +"/"+ str(my_month) +"/"+ str(my_year)
-    print(my_date)
-
-    return my_date
-
+    
+    return str(my_date)
