@@ -14,7 +14,7 @@ window.title("Material Oxidation Machine - Local Control Software (by:RuisoArt)"
 my_header(window)
 # -------------------------------- Seccion BODY de la Ventana ----------------------------------
 my_body(window)
-
+# -----------------------------------------------------------------------------------------------
 
 
 window.mainloop()
