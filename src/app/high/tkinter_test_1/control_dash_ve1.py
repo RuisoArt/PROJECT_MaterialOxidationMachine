@@ -8,6 +8,7 @@ from body import my_body
 window = tk.Tk()
 window.geometry("1300x700")
 window.title("Material Oxidation Machine - Local Control Software (by:RuisoArt)")
+window.iconbitmap("./app/high/tkinter_test_1/assets/img/logo.png")
 #-----------------------------------------------------------------------------------------------
 
 # ------------------------------- Seccion HEADER de la ventana ---------------------------------
