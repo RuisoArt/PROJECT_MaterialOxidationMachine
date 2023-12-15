@@ -11,11 +11,11 @@ def body_gncontrol_buttonON(window):
     control_6 = Button(window, text="[6] ON ", font="Helvetica 12", bg="#2ECC71", fg="white") 
     control_7 = Button(window, text="[7] ON ", font="Helvetica 12", bg="#2ECC71", fg="white")
 
-    control_1.grid(row=4, column=2)
-    control_2.grid(row=5, column=2)
-    control_3.grid(row=6, column=2)
-    control_4.grid(row=7, column=2)
-    control_5.grid(row=8, column=2)
-    control_6.grid(row=9, column=2)
-    control_7.grid(row=10, column=2) 
+    control_1.grid(row=4, column=1)
+    control_2.grid(row=5, column=1)
+    control_3.grid(row=6, column=1)
+    control_4.grid(row=7, column=1)
+    control_5.grid(row=8, column=1)
+    control_6.grid(row=9, column=1)
+    control_7.grid(row=10, column=1) 
     
