@@ -2,6 +2,9 @@ from tkinter import *
 import tkinter as tk
 
 def body_gncontrol_text(window):
+    tittle_1 = Label(window, text="Tablero de Control Principal",bg="#F4D03F", font="Helvetica 12", fg="#000000", height=2)
+    tittle_1.grid(row=3, column=0, columnspan=1)
+
     mood_1 = Label(window, text="[1] Luminarias Delanteras",bg="#FFFFFF", font="Helvetica 12", fg="#000000", height=2)
     mood_2 = Label(window, text="[2] Luminarias Traseras",bg="#FFFFFF", font="Helvetica 12", fg="#000000", height=2)
     mood_3 = Label(window, text="[3] Hornillo y Toma AC",bg="#FFFFFF", font="Helvetica 12", fg="#000000", height=2)

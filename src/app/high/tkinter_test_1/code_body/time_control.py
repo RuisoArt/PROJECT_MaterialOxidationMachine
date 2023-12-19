@@ -2,6 +2,9 @@ from tkinter import *
 import tkinter as tk
 
 def body_control_time(window):
+    tittle_2 = Label(window, text=" Tiempo de Ejecucion ",bg="#F4D03F", font="Helvetica 12", fg="#000000", height=2)
+    tittle_2.grid(row=3, column=4, columnspan=5)
+
     parraf = Label(window
                    ,text=" "
                         +"Lorem ipsum dolor sit amet, \n" 
@@ -27,4 +30,6 @@ def body_control_time(window):
     btn_stop  = Button(window, text=" STOP ",  font="Helvetica 12", bg="#FF0055", fg="white", width="20")
 
     btn_start.grid(row=9,  column=4, columnspan=5)
-    btn_stop.grid (row=10, column=4, columnspan=5) 
+    btn_stop.grid (row=10, column=4, columnspan=5)
+
+    
