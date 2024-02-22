@@ -4,7 +4,7 @@ import tkinter as tk
 from header import my_second_header
 #from .code.history.cipher_body.body import my_second_body
 #from .code.history.cipher_body.second_body import my_second_body
-from body import my_second_body
+from body import the_body
 
 icono = "assets/img/USTAcarpeta.ico"
 #----------------------------------------------------------------
@@ -24,9 +24,11 @@ img_usta = Label(window, image = sm_img_usta, width="200")
 
 img_rasp.grid(row=1, column=0)
 img_usta.grid(row=1, column=19)
-#----------------------------------------------------------------
+#---------------------------------------------------------------
 my_second_header(window)
 #----------------------------------------------------------------
-my_second_body(window)
+the_body(window)
+
+
 
 window.mainloop()

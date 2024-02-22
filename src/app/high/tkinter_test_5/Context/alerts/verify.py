@@ -11,4 +11,4 @@ def alert_verify():
 
     alert.mainloop()
 
-alert_verify()
+#alert_verify()

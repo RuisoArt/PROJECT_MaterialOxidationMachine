@@ -9,7 +9,7 @@ def my_second_header(window):
     tittle_primary = Label(window, text = "Software de Control Maquina de Niebla Salina"
                                     +" - Facultad de Ingenieria Mecanica"
                                     +"\nLaboratorio de Materiales"
-                                    +"\nHistorial de resgistro de Sensores"
+                                    +"\nHistorial de Resgistro de Sensores"
                                     , font="Helvetica 16", fg="#000000", height=3)
     tittle_secundary = Label(window, text = "Proyecto Desarrollado por Ingenieros Electronicos, Mecanicos y de Sistemas de la Universidad Santo Tomas seccional Tunja."
                             , font="Helvetica 10", fg="#000000", height=2, justify="center")
