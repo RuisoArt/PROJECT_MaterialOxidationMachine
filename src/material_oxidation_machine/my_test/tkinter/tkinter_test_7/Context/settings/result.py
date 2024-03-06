@@ -51,7 +51,7 @@ def show_generaldata_ofDataframe(window, dataset, mensaje):
                        temp1min, temp1max, temp1media, temp1mediana,
                        temp2min, temp2max, temp2media, temp2mediana,
                        temp3min, temp3max, temp3media, temp3mediana,
-                       lv_total_0, lv_total_1, lv_suma)
+                       lv_total_0, lv_total_1, lv_suma, df_sensors)
 
 
 

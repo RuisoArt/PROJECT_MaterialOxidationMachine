@@ -7,7 +7,7 @@ def dataset_info(window, titulo, quantity, hourmin, hourmax,
                  temp1min, temp1max, temp1media, temp1mediana,
                  temp2min, temp2max, temp2media, temp2mediana,
                  temp3min, temp3max, temp3media, temp3mediana,
-                 lv_total_0, lv_total_1, lv_suma):
+                 lv_total_0, lv_total_1, lv_suma, df_sensors):
         
     tittle          = Label(window, text="¡Registro Encontrado!",bg="#2ECC71", font="Helvetica 12", fg="#000000", height=2)
     subtittle       = Label(window, text="Nombre del Archivo: "+str(titulo),bg="#FFFFFF", font="Helvetica 10", fg="#000000", height=2)
@@ -67,4 +67,4 @@ def dataset_info(window, titulo, quantity, hourmin, hourmax,
     txt_lv0.grid      (row=10, column=L,  columnspan=LL)
     txt_lv1.grid      (row=11, column=L,  columnspan=LL)
 
-    hour.btn_hour(window)
+    hour.btn_hour(window, hourmin, hourmax, df_sensors)

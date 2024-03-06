@@ -1,7 +1,9 @@
 from tkinter import *
 import tkinter as tk
 
-def btn_hour(window):
+from folder_helps import check
+
+def btn_hour(window, hourmin, hourmax, df_sensors):
 
     #titulo que mecione lo que se debe ingresar
     enunciado = Label(window, text="A continuacion debe ingresar el rango de tiempo que \n"+ 
@@ -15,8 +17,8 @@ def btn_hour(window):
     tittle_2 = Label(window, text="Hora Maxima(24h): ",bg="#76D7C4", font="Helvetica 12", fg="#000000", height=2, justify="left")
     in_hour_max = Entry(window, font="Helvetica 14", width=10, justify="center")
 
-    btn_graph = Button(window, text=" GRAFICAR \n SENSORES ", font="Helvetica 14", bg="#2ECC71", fg="#145A32", width="20",height=3)
-                       #command= lambda: file_name.my_file_name(window, input_year, input_month, input_day))
+    btn_graph = Button(window, text=" GRAFICAR \n SENSORES ", font="Helvetica 14", bg="#2ECC71", fg="#145A32", width="20",height=3
+                       ,command= lambda: check.check_hourrange(window, hourmin, in_hour_min, hourmax, in_hour_max, df_sensors) )
 
     enunciado.grid(row=13, column=7,  columnspan=17)
 

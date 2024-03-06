@@ -1,6 +1,8 @@
+import math
 from alerts import verify
 from alerts import not_num
 from alerts import out_range
+from settings import graph
 
 def check_integer(var):
     try:
@@ -55,6 +57,64 @@ def check_rangeofday(var):
         out_range.alert_out_of_range_day()
         return False  
 
-def check_hourmin(window, var):
+def check_hourrange(window, hourmin, inhourmin, hourmax, inhourmax, df_sensors):
+    #comprobacion de enteros o si es false
+    inhourmin = inhourmin.get()
+    inhourmax = inhourmax.get()
+    inhourmin = int(inhourmin) #* 10000
+    inhourmax = int(inhourmax) #* 10000
 
-def check_hourmax(window, var):
+    hourmin = hourmin.replace('hora', '')
+    hourmin = hourmin.replace('dtype: int64', '')
+    hourmin = hourmin.replace('\n', '')
+    hourmin = int(hourmin)
+    deci1, hourmin = math.modf( hourmin/10000 )
+    hourmin = int(hourmin)
+    
+    hourmax = hourmax.replace('hora', '')
+    hourmax = hourmax.replace('dtype: int64', '')
+    hourmax = hourmax.replace('\n', '')
+    hourmax = int(hourmax)
+    deci2, hourmax = math.modf( hourmax/10000 )
+    hourmax = int(hourmax)
+
+    print("Hora de archivo es: "+str(hourmin)+" Hora de entrada: "+str(inhourmin))
+    print("Hora de archivo es: "+str(hourmax)+" Hora de entrada: "+str(inhourmax))
+        
+    inhourmin = check_integer(inhourmin)
+    print("paso inhourmin: "+str(inhourmin))
+    inhourmax = check_integer(inhourmax)
+    print("paso inhourmax: "+str(inhourmax))
+    hourmin = check_integer(hourmin)
+    print("paso hourmin: "+str(hourmin))
+    hourmax = check_integer(hourmax)
+    print("paso hourmax: "+str(hourmax))
+    
+    my_minh, my_maxh = 0,0
+
+    if hourmin == False or inhourmin == False or hourmax == False:
+        print("No son numeros")
+    elif inhourmin >= hourmin and inhourmin <= hourmax:
+        my_minh = inhourmin
+    else:
+        out_range.alert_out_of_hour()
+
+    # print("Hora de archivo es: "+str(hourmin)+" Hora de entrada: "+str(inhourmin))
+    # print("Hora de archivo es: "+str(hourmax)+" Hora de entrada: "+str(inhourmax))
+
+    if hourmin == False or hourmax == False or inhourmax == False:
+        print("No son numeros")
+    elif inhourmax >= hourmin and inhourmax <= hourmax:
+        my_maxh = inhourmax
+    else:
+        out_range.alert_out_of_hour()
+
+    print("hora minima que llega: "+str(my_minh)+" hora maxima que llega: "+str(my_maxh))
+
+    if my_maxh != 0 and my_minh != 0:
+        graph.my_grah(window, my_minh, my_maxh, df_sensors)
+    else:
+        print("las horas son ceros")
+        out_range.alert_out_of_hour()
+        
+
