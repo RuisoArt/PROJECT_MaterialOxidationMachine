@@ -3,7 +3,7 @@ import time
 import datetime as dt
 from generate_text import create_doc
 
-p, ciclos =0, 200 #numero de ciclos para el documento
+p, ciclos =0, 100 #numero de ciclos para el documento
 
 while True:
     x = dt.datetime.now()
