@@ -6,7 +6,7 @@ from body import my_body
 
 #------------------------------ Caracteristicas de la ventana ----------------------------------
 window = tk.Tk()
-window.geometry("1300x700")
+window.geometry("1280x700")
 window.title("Material Oxidation Machine - Local Control Software (by:RuisoArt)")
 #window.iconbitmap(".assets/img/USTAcarpeta.ico")
 # ----------------------------------LOGOS------------------------------
