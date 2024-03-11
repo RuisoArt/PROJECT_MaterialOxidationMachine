@@ -57,10 +57,10 @@ def check_rangeofday(var):
         out_range.alert_out_of_range_day()
         return False  
 
-def check_hourrange(window, hourmin, inhourmin, hourmax, inhourmax, df_sensors):
+def check_hourrange(window, hourmin, in_hour_min, hourmax, in_hour_max, df_sensors):
     #comprobacion de enteros o si es false
-    inhourmin = inhourmin.get()
-    inhourmax = inhourmax.get()
+    inhourmin = in_hour_min.get()
+    inhourmax = in_hour_max.get()
     inhourmin = int(inhourmin) #* 10000
     inhourmax = int(inhourmax) #* 10000
 
