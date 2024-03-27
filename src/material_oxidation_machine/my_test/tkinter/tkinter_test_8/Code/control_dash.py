@@ -3,7 +3,10 @@ import tkinter as tk
 
 from header import my_header
 from body import my_body
+import os
 
+# pendiente de reemplazo de ruta para despues el ejecutable y minimizar a ruta general de archivo
+os.system("/bin/python3 /home/onruiso/Desktop/ProjectMachine/tkinter_test_8MAR18/Database/read_MCU.py &")
 #------------------------------ Caracteristicas de la ventana ----------------------------------
 window = tk.Tk()
 window.geometry("1170x550")
@@ -27,6 +30,5 @@ my_header(window)
 # -------------------------------- Seccion BODY de la Ventana ----------------------------------
 my_body(window)
 # -----------------------------------------------------------------------------------------------
-
 
 window.mainloop()
