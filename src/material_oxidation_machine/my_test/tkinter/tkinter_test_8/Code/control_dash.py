@@ -6,8 +6,8 @@ from body import my_body
 import os
 
 # pendiente de reemplazo de ruta para despues el ejecutable y minimizar a ruta general de archivo
-os.system("/bin/python3 /home/onruiso/Desktop/ProjectMachine/tkinter_test_8/Database/read_MCU.py &")
-#os.system("/bin/python3 /home/onruiso/Desktop/ProjectMachine/tkinter_test_8/Error/button_emergency.py &")
+os.system("/bin/python3 /home/onruiso/Desktop/Software/tkinter_test_8/Database/read_MCU.py &")
+os.system("/bin/python3 /home/onruiso/Desktop/Software/tkinter_test_8/Error/button_emergency.py &")
 #------------------------------ Caracteristicas de la ventana ----------------------------------
 window = tk.Tk()
 window.geometry("1170x550")
