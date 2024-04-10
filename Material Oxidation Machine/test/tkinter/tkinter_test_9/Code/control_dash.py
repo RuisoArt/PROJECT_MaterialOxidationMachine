@@ -1,6 +1,5 @@
 from tkinter import *
 import tkinter as tk
-
 from header import my_header
 from body import my_body
 import os
@@ -9,8 +8,8 @@ import os
 #os.system("/bin/python3 /home/onruiso/Desktop/Software/tkinter_test_8/Database/read_MCU.py &")
 #os.system("/bin/python3 /home/onruiso/Desktop/Software/tkinter_test_8/Error/button_emergency.py &")
 
-route_read_mcu = "/home/onruiso/Desktop/Software/tkinter_test_9/Database/read_MCU.py"
-route_button_emergency = "/home/onruiso/Desktop/Software/tkinter_test_9/Error/button_emergency.py"
+route_read_mcu = "/home/onruiso/project/tkinter_test_9/Database/read_MCU.py"
+route_button_emergency = "/home/onruiso/project/tkinter_test_9/Error/button_emergency.py"
 back_ground = " &"  
 
 os.system("/bin/python3 "+route_read_mcu+back_ground)
