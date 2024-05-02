@@ -4,6 +4,7 @@ Proyecto realizado por los Ingenieros:
 	Ing. Luis Felipe Narvaez Gomez    C.C. 1049652438    Colombia-Boyaca-Tunja.
 
 Contiene desarrollo y elementos finales de:
+
 	1. PCB's Electronicas.
 	2. Modelos 3D de piezas estructurales.
 	3. Modelos 3D de estructura general.
